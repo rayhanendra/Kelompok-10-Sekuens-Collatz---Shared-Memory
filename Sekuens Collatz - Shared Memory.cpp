@@ -12,7 +12,7 @@ John Wiley & Sons, 2013*/
 int main(int argc, char *argv[])
 {
  const int SIZE = 4096; 		/*ukuran objek shared memory dalam bytes*/
- const char *name = "COLLATZ";	/*nama dari objek shared memory*/
+ const char *name = "COLLATZ";	 /*nama dari objek shared memory*/
 
  int shm_fd;				/*pendeskripsi file shared memory*/
  void *ptr;				/*pointer ke objek shared memory*/
